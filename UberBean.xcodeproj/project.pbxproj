@@ -15,6 +15,7 @@
 		0D0A559A228F1F55000AC878 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0A5599228F1F55000AC878 /* main.m */; };
 		0D0A55A4228F1F56000AC878 /* UberBeanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0A55A3228F1F56000AC878 /* UberBeanTests.m */; };
 		0D0A55AF228F1F56000AC878 /* UberBeanUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0A55AE228F1F56000AC878 /* UberBeanUITests.m */; };
+		0D0A55BE228F3C7C000AC878 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D0A55BD228F3C7B000AC878 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		0D0A55AA228F1F56000AC878 /* UberBeanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UberBeanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D0A55AE228F1F56000AC878 /* UberBeanUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UberBeanUITests.m; sourceTree = "<group>"; };
 		0D0A55B0228F1F56000AC878 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D0A55BD228F3C7B000AC878 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D0A55BE228F3C7C000AC878 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +88,7 @@
 				0D0A55A2228F1F56000AC878 /* UberBeanTests */,
 				0D0A55AD228F1F56000AC878 /* UberBeanUITests */,
 				0D0A5588228F1F55000AC878 /* Products */,
+				0D0A55BC228F3C7B000AC878 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -130,6 +134,14 @@
 				0D0A55B0228F1F56000AC878 /* Info.plist */,
 			);
 			path = UberBeanUITests;
+			sourceTree = "<group>";
+		};
+		0D0A55BC228F3C7B000AC878 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D0A55BD228F3C7B000AC878 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
